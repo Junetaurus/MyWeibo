@@ -1,0 +1,28 @@
+//
+//  Weibo.pch
+//  TaurusWeibo
+//
+//  Created by company on 15/9/6.
+//  Copyright (c) 2015年 Taurus. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#define ZJKeyWindow [UIApplication sharedApplication].keyWindow
+
+// ...表示宏定义的可变参数
+// __VA_ARGS__:表示函数里面的可变参数
+#ifdef DEBUG // 调试
+
+#define ZJLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define ZJLog(...)
+
+#endif
+
+#endif
