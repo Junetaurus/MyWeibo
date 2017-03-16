@@ -60,7 +60,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.backgroundColor = [UIColor lightGrayColor];
+    self.tableView.backgroundColor = BackGounderColor;
     
     // 取消分割线
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;

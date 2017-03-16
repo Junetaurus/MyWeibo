@@ -12,6 +12,7 @@
 #import "UIImage+Image.h"
 
 #define ZJKeyWindow [UIApplication sharedApplication].keyWindow
+#define BackGounderColor [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0]
 
 // ...表示宏定义的可变参数
 // __VA_ARGS__:表示函数里面的可变参数
