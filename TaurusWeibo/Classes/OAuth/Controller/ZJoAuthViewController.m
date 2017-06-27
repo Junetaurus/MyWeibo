@@ -14,9 +14,9 @@
 #import "ZJHttpTool.h"
 
 #define ZJAuthorizeBaseUrl @"https://api.weibo.com/oauth2/authorize"
-#define ZJClient_id     @"1306571910"
+#define ZJClient_id     @"2247054958"
 #define ZJRedirect_uri  @"http://www.baidu.com"
-#define ZJClient_secret @"7416ec7ba6fe111247e9bdfad4c595ec"
+#define ZJClient_secret @"53dc4544387f967dd770d1774c4a6d3e"
 
 @interface ZJoAuthViewController () <UIWebViewDelegate>
 
