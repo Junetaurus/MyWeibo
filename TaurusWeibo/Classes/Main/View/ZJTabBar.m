@@ -8,7 +8,6 @@
 
 #import "ZJTabBar.h"
 #import "ZJTabBarButton.h"
-#import "ZJComposeViewController.h"
 
 @interface ZJTabBar ()
 

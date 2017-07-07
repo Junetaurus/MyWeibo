@@ -66,6 +66,11 @@
     [_textView becomeFirstResponder];
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [_textView resignFirstResponder];
+}
+
 // 添加相册视图
 - (void)setUpPhotosView
 {

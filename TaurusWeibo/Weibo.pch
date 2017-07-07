@@ -11,6 +11,9 @@
 #import "UIView+Frame.h"
 #import "UIImage+Image.h"
 
+#import "ZJTabBarController.h"
+#import "ZJNavigationController.h"
+
 #define ZJKeyWindow [UIApplication sharedApplication].keyWindow
 #define BackGounderColor [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0]
 

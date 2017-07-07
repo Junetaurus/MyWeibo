@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6068A74A1F0F5EAC00BCEF6D /* ZJNewComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068A7491F0F5EAC00BCEF6D /* ZJNewComposeViewController.m */; };
+		6068A74D1F0F6A6E00BCEF6D /* ZJMenuAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068A74C1F0F6A6E00BCEF6D /* ZJMenuAnimateView.m */; };
+		6068A7501F0F6BF900BCEF6D /* ZJMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068A74F1F0F6BF900BCEF6D /* ZJMenuButton.m */; };
 		680451A41BA6569600850761 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 680451A31BA6569600850761 /* silence.mp3 */; };
 		68167C411B9BE08A0023538A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68167C3F1B9BE08A0023538A /* LaunchScreen.xib */; };
 		68167C4D1B9BE08A0023538A /* TaurusWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68167C4C1B9BE08A0023538A /* TaurusWeiboTests.m */; };
@@ -26,7 +29,7 @@
 		68167CC71B9C33700023538A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68167CC61B9C33700023538A /* Images.xcassets */; };
 		681B8DD01BABB58000D05C0B /* ZJComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681B8DCF1BABB58000D05C0B /* ZJComposeViewController.m */; };
 		681B8DD31BABBA3200D05C0B /* ZJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 681B8DD21BABBA3200D05C0B /* ZJTextView.m */; };
-		684772CF1BC0D06200BE1E6E /* ZJUpLoadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 684772CE1BC0D06200BE1E6E /* ZJUpLoadParam.m */; settings = {ASSET_TAGS = (); }; };
+		684772CF1BC0D06200BE1E6E /* ZJUpLoadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 684772CE1BC0D06200BE1E6E /* ZJUpLoadParam.m */; };
 		6856E00E1BA1130300537EF6 /* ZJoAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6856E00D1BA1130300537EF6 /* ZJoAuthViewController.m */; };
 		6856E02B1BA1144200537EF6 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6856E0191BA1144200537EF6 /* AFHTTPRequestOperation.m */; };
 		6856E02C1BA1144200537EF6 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6856E01B1BA1144200537EF6 /* AFHTTPRequestOperationManager.m */; };
@@ -119,7 +122,7 @@
 		68F01F1B1BA004DB0034920A /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F01F1A1BA004DB0034920A /* UIBarButtonItem+Item.m */; };
 		68F01F1E1BA006800034920A /* ZJTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F01F1D1BA006800034920A /* ZJTitleButton.m */; };
 		68F01F211BA00F8C0034920A /* ZJPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F01F201BA00F8C0034920A /* ZJPopMenu.m */; };
-		68F204311BC0BD7E00B311FC /* ZJComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F204301BC0BD7E00B311FC /* ZJComposePhotosView.m */; settings = {ASSET_TAGS = (); }; };
+		68F204311BC0BD7E00B311FC /* ZJComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F204301BC0BD7E00B311FC /* ZJComposePhotosView.m */; };
 		68F29DDB1BA40608003C9964 /* ZJPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F29DDA1BA40608003C9964 /* ZJPhotosView.m */; };
 		68F29DDE1BA427AC003C9964 /* ZJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F29DDD1BA427AC003C9964 /* ZJPhotoView.m */; };
 /* End PBXBuildFile section */
@@ -135,6 +138,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6068A7481F0F5EAC00BCEF6D /* ZJNewComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNewComposeViewController.h; sourceTree = "<group>"; };
+		6068A7491F0F5EAC00BCEF6D /* ZJNewComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNewComposeViewController.m; sourceTree = "<group>"; };
+		6068A74B1F0F6A6E00BCEF6D /* ZJMenuAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMenuAnimateView.h; sourceTree = "<group>"; };
+		6068A74C1F0F6A6E00BCEF6D /* ZJMenuAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMenuAnimateView.m; sourceTree = "<group>"; };
+		6068A74E1F0F6BF900BCEF6D /* ZJMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMenuButton.h; sourceTree = "<group>"; };
+		6068A74F1F0F6BF900BCEF6D /* ZJMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMenuButton.m; sourceTree = "<group>"; };
 		680451A31BA6569600850761 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
 		68167C2D1B9BE08A0023538A /* TaurusWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaurusWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68167C311B9BE08A0023538A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -682,6 +691,8 @@
 			children = (
 				681B8DCE1BABB58000D05C0B /* ZJComposeViewController.h */,
 				681B8DCF1BABB58000D05C0B /* ZJComposeViewController.m */,
+				6068A7481F0F5EAC00BCEF6D /* ZJNewComposeViewController.h */,
+				6068A7491F0F5EAC00BCEF6D /* ZJNewComposeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -702,6 +713,10 @@
 				68DB82BC1BABE948005E794E /* ZJComposeToolBar.m */,
 				68F2042F1BC0BD7E00B311FC /* ZJComposePhotosView.h */,
 				68F204301BC0BD7E00B311FC /* ZJComposePhotosView.m */,
+				6068A74B1F0F6A6E00BCEF6D /* ZJMenuAnimateView.h */,
+				6068A74C1F0F6A6E00BCEF6D /* ZJMenuAnimateView.m */,
+				6068A74E1F0F6BF900BCEF6D /* ZJMenuButton.h */,
+				6068A74F1F0F6BF900BCEF6D /* ZJMenuButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1233,6 +1248,7 @@
 				68DB82BD1BABE948005E794E /* ZJComposeToolBar.m in Sources */,
 				6856E1391BA1164500537EF6 /* MJPhotoToolbar.m in Sources */,
 				6856E0DD1BA1147800537EF6 /* UIButton+WebCache.m in Sources */,
+				6068A7501F0F6BF900BCEF6D /* ZJMenuButton.m in Sources */,
 				686FF80F1BA2B89000875D77 /* ZJOriginalView.m in Sources */,
 				6856E10A1BA1160300537EF6 /* UIScrollView+MJRefresh.m in Sources */,
 				6856E13B1BA1164500537EF6 /* SDWebImageManager+MJ.m in Sources */,
@@ -1300,6 +1316,7 @@
 				6856E0DF1BA1147800537EF6 /* UIImage+MultiFormat.m in Sources */,
 				6856E1361BA1164500537EF6 /* MJPhotoBrowser.m in Sources */,
 				68167CB61B9C2A670023538A /* ZJBadgeView.m in Sources */,
+				6068A74D1F0F6A6E00BCEF6D /* ZJMenuAnimateView.m in Sources */,
 				687D16B51BA3BB3900E02DCE /* ZJStatusResult.m in Sources */,
 				6856E1081BA1160300537EF6 /* MJRefreshHeaderView.m in Sources */,
 				6856E02E1BA1144200537EF6 /* AFNetworkReachabilityManager.m in Sources */,
@@ -1317,6 +1334,7 @@
 				6856E0311BA1144200537EF6 /* AFURLRequestSerialization.m in Sources */,
 				681B8DD01BABB58000D05C0B /* ZJComposeViewController.m in Sources */,
 				6856E13E1BA1340C00537EF6 /* ZJAccount.m in Sources */,
+				6068A74A1F0F5EAC00BCEF6D /* ZJNewComposeViewController.m in Sources */,
 				6856E0D71BA1147800537EF6 /* SDWebImageCompat.m in Sources */,
 				6856E02D1BA1144200537EF6 /* AFHTTPSessionManager.m in Sources */,
 				6856E1541BA13F9600537EF6 /* NSObject+MJIvar.m in Sources */,

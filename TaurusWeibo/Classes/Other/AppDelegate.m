@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ZJTabBarController.h"
 #import "ZJNewFeatureViewController.h"
 
 #import "ZJoAuthViewController.h"

@@ -7,7 +7,6 @@
 //
 
 #import "ZJNewFeatureCell.h"
-#import "ZJTabBarController.h"
 
 @interface ZJNewFeatureCell ()
 

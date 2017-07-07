@@ -20,11 +20,9 @@
 #import "ZJDiscoverViewController.h"
 #import "ZJProfileViewController.h"
 
-#import "ZJNavigationController.h"
-
 #import "MJExtension.h"
 
-#import "ZJComposeViewController.h"
+#import "ZJNewComposeViewController.h"
 
 
 @interface ZJTabBarController () <ZJTabBarDelegate>
@@ -119,9 +117,8 @@
 // 点击加号按钮的时候调用
 - (void)tabBarDidClickPlusButton:(ZJTabBar *)tabBar
 {
-    ZJComposeViewController *composeVC = [[ZJComposeViewController alloc] init];
-    ZJNavigationController *nav = [[ZJNavigationController alloc] initWithRootViewController:composeVC];
-    [self presentViewController:nav animated:YES completion:nil];
+    ZJNewComposeViewController *composeVC = [[ZJNewComposeViewController alloc] init];
+    [self presentViewController:composeVC animated:YES completion:nil];
 }
 
 

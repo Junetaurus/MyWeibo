@@ -7,7 +7,6 @@
 //
 
 #import "ZJRootTool.h"
-#import "ZJTabBarController.h"
 #import "ZJNewFeatureViewController.h"
 
 @implementation ZJRootTool
